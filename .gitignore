@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+*.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets
+.env
+
+# Vector Store Data
+chroma_db_store/
+chroma_db_test/
+
+# OS-specific
+.DS_Store
+*.sqlite3 # Often used by ChromaDB or other libraries
+*.log # Exclude log files if desired
